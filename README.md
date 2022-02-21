@@ -16,3 +16,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Nextjs
 - modules.scss
 - framer-motion
+
+## Result
+![Rendered Application](./public/result.png)
