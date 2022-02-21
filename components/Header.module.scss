@@ -1,0 +1,18 @@
+.header {
+    padding: 0 20%;
+    width: 100vw;
+    height: 64px;
+    background: rgb(31, 41, 55);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        height: 42px;
+    }
+
+    .avatar {
+        width: 42px;
+        border-radius: 50%;
+    }
+}
