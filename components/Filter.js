@@ -34,7 +34,7 @@ const Filter = ({
                 Comedy
             </button>
             <button
-                className={activeGenre === 28 ? 'active' : ''}
+                className={activeGenre === 28 ? classes.active : ''}
                 onClick={() => setActiveGenre(28)}
             >
                 Action
