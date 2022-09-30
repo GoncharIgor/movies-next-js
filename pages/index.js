@@ -64,7 +64,7 @@ export async function getStaticProps() {
         },
         revalidate: 30
         // 30 - number of seconds next.js will wait until it regenerates this page when server receives request for this page
-        // thus, this page will not be generated only once during build process, but will be generated every 10 seconds
+        // thus, this page will not be generated only once during build process, but will be generated every 30 seconds
         // it means - our data on UI will be never older than 30 secs
     }
 }
